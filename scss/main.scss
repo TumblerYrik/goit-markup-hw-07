@@ -9,14 +9,14 @@
 @import "./base/container";
 @import "./base/card-set";
 
-// components
-@import "./components/button";
-@import "./components/socials";
-@import "./components/modal-form";
 
 // layouts 
 @import "./layuots/header";
 @import "./layuots/hero";
+// components
+@import "./components/button";
+@import "./components/modal-form";
+
 @import "./layuots/feature";
 @import "./layuots/services";
 @import "./layuots/clients";
