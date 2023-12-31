@@ -10,5 +10,15 @@
 @import "./base/card-set";
 
 // components
+@import "./components/button";
+@import "./components/socials";
+@import "./components/modal-form";
 
-// layouts
+// layouts 
+@import "./layuots/header";
+@import "./layuots/hero";
+@import "./layuots/feature";
+@import "./layuots/services";
+@import "./layuots/clients";
+@import "./layuots/portfolio";
+@import "./layuots/footer";
