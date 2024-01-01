@@ -10,6 +10,6 @@
     gap: var(--indent);
 }
 
-.grid-item {
+.grid__item {
     flex-basis: calc((100% - var(--indent) * (var(--items) -1)) / var(--items));
 }

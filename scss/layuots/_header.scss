@@ -104,10 +104,10 @@
 
 .header-grup__item {
     margin-right: 50px;
-}
 
-.header-grup__item:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .header-grup__mailto {

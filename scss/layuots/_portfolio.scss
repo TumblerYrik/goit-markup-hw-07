@@ -5,7 +5,7 @@
     background-color: var(--main-bg-cl);
 }
 
-.portfolio-list {
+.portfolio__list {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
@@ -15,45 +15,15 @@
     justify-content: center;
 }
 
-.portfolio-item {
+.portfolio__item {
     margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
-.portfolio-item:last-child {
-    margin-right: 0;
-}
-
-.portfolio-all-btn {
-    padding-top: 6px;
-    padding-right: 25px;
-    padding-bottom: 6.5px;
-    padding-left: 25px;
-    text-align: center;
-    font-family: var(--main-font);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.48px;
-    width: 73px;
-    height: 38px;
-    background: var(--accent-cl);
-    color: var(--main-bg-cl);
-    border-color: transparent;
-    transition: background-color 250ms var(--timing-function),
-        color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
-}
-
-.portfolio-all-btn:hover,
-.portfolio-all-btn:focus {
-    border-radius: 4px;
-    background-color: #2196f3;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-    width: 73px;
-    height: 38px;
-}
-
-.portfolio-btn {
+.portfolio__btn {
     display: block;
     padding-top: 6px;
     padding-right: 22px;
@@ -70,18 +40,48 @@
     border-color: transparent;
     transition: background-color 250ms var(--timing-function),
         color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        border-radius: 4px;
+        color: var(--secondary-bg-cl);
+        background-color: var(--accent-cl);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+            0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio__btn--all {
+        padding-top: 6px;
+        padding-right: 25px;
+        padding-bottom: 6.5px;
+        padding-left: 25px;
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+        width: 73px;
+        height: 38px;
+        background: var(--accent-cl);
+        color: var(--main-bg-cl);
+        border-color: transparent;
+        transition: background-color 250ms var(--timing-function),
+            color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+
+        &:hover,
+        &:focus {
+            border-radius: 4px;
+            background-color: #2196f3;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+                0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+            width: 73px;
+            height: 38px;
+        }
+    }
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-    border-radius: 4px;
-    color: var(--secondary-bg-cl);
-    background-color: var(--accent-cl);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.img-portfolio-list {
+.img__grid {
     padding: 0;
     margin: 0;
     display: flex;
