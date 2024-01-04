@@ -24,6 +24,10 @@
     margin-right: 30px;
     width: 270px;
     flex-shrink: 0;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .feature__rectangle {
@@ -37,9 +41,6 @@
     margin-bottom: 30px;
 }
 
-.feature__item:last-child {
-    margin-right: 0;
-}
 
 .feature__subtitle {
     margin-bottom: 10px;

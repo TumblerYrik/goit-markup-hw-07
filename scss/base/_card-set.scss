@@ -1,4 +1,3 @@
-
 /*  
     |=============================
     | Сітка для колекції з елементов 
@@ -10,6 +9,6 @@
     gap: var(--indent);
 }
 
-.grid__item {
+.grid-item {
     flex-basis: calc((100% - var(--indent) * (var(--items) -1)) / var(--items));
 }

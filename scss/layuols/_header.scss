@@ -13,26 +13,6 @@
     align-items: center;
 }
 
-/* Логотип logo */
-
-.logo {
-    margin-right: 93px;
-    color: var(--accent-cl);
-    font-family: var(--secondary-font);
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-}
-
-.logo__part {
-    color: var(--secondary-txt-cl);
-    font-family: var(--secondary-font);
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-}
-
-
 /*   Oсновна новігація сайту  navigation   */
 
 .navigation {
@@ -138,13 +118,13 @@
     color: var(--accent-cl);
 }
 
-.studio-link {
+.header-grup__link {
     display: flex;
     align-items: center;
     color: #757575;
 }
 
-.studio-icon {
+.header-grup__icon {
     margin-right: 10px;
     fill: currentColor;
 }

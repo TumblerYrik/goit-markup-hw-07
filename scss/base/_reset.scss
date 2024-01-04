@@ -22,12 +22,6 @@ img {
     height: auto;
 }
 
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .list {
     list-style: none;
     margin: 0;
@@ -37,10 +31,9 @@ img {
 .link {
     text-decoration: none;
     transition: color 250ms var(--timing-function);
+}
 
-
-    &:hover,
-    &:focus {
-        color: #2196f3;
-    }
+.link:hover,
+.link:focus {
+    color: #2196f3;
 }
