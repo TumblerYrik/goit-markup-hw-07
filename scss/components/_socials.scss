@@ -1,7 +1,10 @@
 /* socials blok */
 
 .socials__list {
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .socials__item {
